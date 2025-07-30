@@ -1,0 +1,76 @@
+.body{
+    background-color: rgb(29, 3, 179);
+    
+color: white;
+font-size: 34pt;
+}
+.texte{
+    font-size: 34pt;
+    color: white;
+animation-name: jus ;
+animation-timing-function: steps(26);
+animation-duration: 11s;
+animation-iteration-count: infinite;
+animation-fill-mode:forwards ;
+float: right;
+margin-right: 12px;
+}
+@keyframes jus{
+    from {width: 0%;
+    }
+    to { width: 80%;}
+}
+.logo:hover{
+    cursor: pointer;
+    animation-name: zoom, gg;
+    animation-duration: 2s ,4s;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    margin-top: 5px;
+    padding-bottom: 12px;
+}
+@keyframes zoom {
+    from {transform: scale(1.5);}
+    to {transform: scale(1.0);}
+}
+.tete{
+ background-color: beige;
+ min-width: 55dvb;
+ min-height: 15vh;
+ padding-top: 12px;
+}
+.bt{
+    background-color: red;
+    color: white;
+    border: solid;
+    border-radius: 12px;
+    width: 26dvb;
+    height: 6vh;
+    font-size: 28pt;
+    margin-bottom: 12px;
+
+}
+@media screen and ( min-width: 550px){
+    .bt{
+        width: 15%;
+font-size: 16pt;
+height: auto;
+    }
+}
+@media screen and (max-width:1200px) {
+    .bt{
+        width:35%;
+        font-size: 15pt;
+        height: 5vh;
+
+    }
+    
+}
+.logo a:hover{color: blue;}
+.faceb{
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 7px;
+}

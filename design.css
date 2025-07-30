@@ -1,0 +1,8 @@
+.body{
+    background-color: rgb(29, 3, 179);
+    min-height: 45vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: white;
+}
